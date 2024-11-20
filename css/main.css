@@ -1,0 +1,141 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #f3efe8;
+    /* color: #336659; */
+    color: #1f493d;
+    /* color: #3d3d3d; */
+}
+
+#home {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    height: 790px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 500;
+    padding: 0px 20px 12px 20px;
+    font-family: "PT Serif", serif;
+    color: #3d3d3d;
+    /* line-height: 0px; */
+    margin: 0px;
+}
+
+a:hover {
+    padding-bottom: 10px;
+    color:#336659;
+    /* text-decoration: underline; */
+    border-bottom: solid 2px;
+}
+
+nav {
+    padding-top: 20px;
+    width: 100%;
+    font-size: 16pt;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+    background-color: #f3efe8;
+    box-shadow: 0px 0px 14px #3d3d3d30;
+    z-index: 1000;
+}
+
+ul {
+    display: flex;
+}
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .center-text {
+    text-align: center;
+  }
+
+h1 {
+    font-size: 60pt;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 30pt;
+}
+
+section {
+    height: 800px;
+}
+
+.left {
+    height: inherit;
+    width: 50%;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: right;
+}
+
+.right {
+    height: inherit;
+    width: 50%;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: left;
+}
+
+#img-container {
+    height: 480px;
+}
+
+img {
+    height: inherit;
+}
+
+#about {
+    background-color: #336659;
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-box {
+    height: 80%;
+    width: 60%;
+    background-color: #f3efe8;
+}
