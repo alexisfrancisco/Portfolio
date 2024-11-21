@@ -11,7 +11,7 @@ body {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    height: 790px;
+    height: 1000px;
 }
 
 @keyframes fadeInAnimation {
@@ -98,11 +98,12 @@ h2 {
 
 section {
     height: 800px;
+    display: flex;
+    justify-content: center;
 }
 
 .left {
     height: inherit;
-    width: 50%;
     display: flex;
     float: left;
     align-items: center;
@@ -111,7 +112,6 @@ section {
 
 .right {
     height: inherit;
-    width: 50%;
     display: flex;
     float: right;
     align-items: center;
@@ -119,7 +119,8 @@ section {
 }
 
 #img-container {
-    height: 480px;
+    height: 400px;
+    margin-right: 20px;
 }
 
 img {
